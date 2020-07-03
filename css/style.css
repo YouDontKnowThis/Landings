@@ -231,7 +231,7 @@
 .all-content .rest_body .branding {
   height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../../images/branding.jpg");
+    url("../images/branding.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -294,7 +294,7 @@
 .all-content .rest_body .reservation {
   height: 600px;
   background: linear-gradient(to right, #abaeb3de, #abaeb3de),
-    url("../../images/coffee.jpg");
+    url("../images/coffee.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -523,7 +523,7 @@
   z-index: 0;
   height: 80vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../images/about-image.jpg");
+    url("../images/about-image.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -684,7 +684,7 @@
   z-index: 0;
   height: 60vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../images/fd.jpg");
+    url("../images/fd.jpg");
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -775,7 +775,7 @@
 .f_d_reservation {
   height: 600px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../images/coffee1.jpg");
+    url("../images/coffee1.jpg");
   background-position: center;
   background-size: cover;
 }
