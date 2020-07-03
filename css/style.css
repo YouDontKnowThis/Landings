@@ -1,0 +1,1713 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Unica One", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact--form .big--form .avada-contact-btn,
+.avada-contact .avada-contact-text .avada-info-btn,
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn,
+.all-content .menu .social-media .social-list li a,
+.all-content .menu .social-media .social-list li,
+.all-content .menu .navbar li a,
+.all-content .menu .navbar li {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.f_d_reservation,
+.food--drink,
+.about-us,
+.all-content .rest_body .reservation,
+.all-content .rest_body .branding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #ae895d;
+  height: 2px;
+  width: 20%;
+}
+
+.perspective {
+  z-index: 100;
+  position: relative;
+}
+
+.fade--animation {
+  animation: fade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact--form .big--form .avada-contact-btn,
+.avada-contact .avada-contact-text .avada-info-btn,
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn,
+.all-content .menu .social-media .social-list li a,
+.all-content .menu .social-media .social-list li,
+.all-content .menu .navbar li a,
+.all-content .menu .navbar li {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.f_d_reservation,
+.food--drink,
+.about-us,
+.all-content .rest_body .reservation,
+.all-content .rest_body .branding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #ae895d;
+  height: 2px;
+  width: 20%;
+}
+
+.perspective {
+  z-index: 100;
+  position: relative;
+}
+
+.fade--animation {
+  animation: fade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.all-content {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.all-content .responsive-menu {
+  display: none;
+}
+.all-content .menu {
+  background-color: #292c30;
+  width: 18%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+}
+.all-content .menu .logo {
+  width: 120px;
+  margin-bottom: 3rem;
+}
+.all-content .menu .logo img {
+  width: 100%;
+}
+.all-content .menu .navbar {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+.all-content .menu .navbar li {
+  cursor: pointer;
+  /* border-right: 3px solid $border_right; */
+  border-right: 0;
+  border-left: 0;
+  border-top: 1px solid #313539;
+  border-bottom: 1px solid #313539;
+}
+.all-content .menu .navbar li.active {
+  border-right: 3px solid #ae895d;
+}
+.all-content .menu .navbar li.active a {
+  color: #ae895d;
+}
+.all-content .menu .navbar li:hover a {
+  color: #ae895d;
+}
+.all-content .menu .navbar li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 19px;
+  width: 100%;
+  height: 100%;
+  padding: 1.2rem;
+  display: inline-block;
+}
+.all-content .menu .social-media .social-list {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  list-style: none;
+}
+.all-content .menu .social-media .social-list li {
+  background-color: #373c41;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 1rem;
+}
+.all-content .menu .social-media .social-list li:hover {
+  background-color: #abaeb3;
+}
+.all-content .menu .social-media .social-list li:hover a {
+  color: #292c30;
+}
+.all-content .menu .social-media .social-list li:first-of-type {
+  margin-left: 0;
+}
+.all-content .menu .social-media .social-list li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: #abaeb3;
+}
+.all-content .rest_body {
+  position: absolute;
+  /* height: 2000px; */
+  left: 18%;
+  width: 82%;
+}
+.all-content .rest_body .branding {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../images/branding.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.all-content .rest_body .branding .brand {
+  position: fixed;
+}
+.all-content .rest_body .avada-info {
+  display: flex;
+}
+.all-content .rest_body .avada-info .avada-info-text {
+  background-color: #2b3136;
+  color: white;
+  width: 66.6666666667%;
+  padding: 6rem;
+}
+.all-content
+  .rest_body
+  .avada-info
+  .avada-info-text
+  .avada-info-imgs
+  img:first-of-type {
+  margin-right: 1rem;
+}
+.all-content .rest_body .avada-info .avada-info-text h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 4rem;
+}
+.all-content .rest_body .avada-info .avada-info-text span {
+  color: #ae895d;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+}
+.all-content .rest_body .avada-info .avada-info-text p {
+  margin: 3rem 0;
+  color: #abaeb3;
+  line-height: 1.8;
+}
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  padding: 1rem 2rem;
+}
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.all-content .rest_body .avada-info .avada-right-image {
+  width: 33.3333333333%;
+}
+.all-content .rest_body .avada-info .avada-right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.all-content .rest_body .reservation {
+  height: 600px;
+  background: linear-gradient(to right, #abaeb3de, #abaeb3de),
+    url("../../images/coffee.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.all-content .rest_body .reservation .reserv {
+  padding: 0 10rem;
+}
+.all-content .rest_body .reservation .reserv h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: white;
+  font-weight: 200;
+  display: inline-block;
+}
+.all-content .rest_body .reservation .reserv h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.all-content .rest_body .reservation .reserv .underline::after {
+  margin: auto;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.all-content .rest_body .places {
+  display: flex;
+}
+.all-content .rest_body .places .place-one,
+.all-content .rest_body .places .place-two {
+  width: 50%;
+  padding: 5rem;
+  color: white;
+}
+.all-content .rest_body .places .place-one span,
+.all-content .rest_body .places .place-two span {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.all-content .rest_body .places .place-one span:first-of-type,
+.all-content .rest_body .places .place-two span:first-of-type {
+  color: #ae895d;
+  margin-right: 1rem;
+}
+.all-content .rest_body .places .place-one h2,
+.all-content .rest_body .places .place-two h2 {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 100;
+}
+.all-content .rest_body .places .place-one {
+  background-color: #24292d;
+}
+.all-content .rest_body .places .place-two {
+  background-color: #2b3136;
+}
+.all-content .line-of-images {
+  display: flex;
+}
+.all-content .line-of-images .box {
+  width: 25%;
+}
+.all-content .line-of-images .box:nth-of-type(even) {
+  background-color: #2b3136;
+}
+.all-content .line-of-images .box:nth-of-type(odd) {
+  background-color: #24292d;
+}
+.all-content .line-of-images .box img {
+  object-fit: cover;
+  height: 200px;
+}
+.all-content .line-of-images .box .text {
+  padding: 3rem;
+  color: white;
+  text-transform: uppercase;
+}
+.all-content .line-of-images .box .text span {
+  color: #ae895d;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.all-content .line-of-images .box .text h2 {
+  margin-top: 0.8rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.all-content footer {
+  background-color: #313539;
+  padding: 5rem;
+}
+.all-content footer .footer-logo {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  padding-bottom: 3rem;
+}
+.all-content footer .our-info {
+  display: flex;
+}
+.all-content footer .our-info .info {
+  width: 33.3333333333%;
+  text-align: center;
+  padding: 3rem 0 7rem 0;
+  border-bottom: 1px solid #555;
+}
+.all-content footer .our-info .info i {
+  color: #ae895d;
+  font-size: 2rem;
+}
+.all-content footer .our-info .info h6 {
+  color: white;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.all-content footer .our-info .info span {
+  color: #abaeb3;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+.all-content footer .last-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-content footer .last-footer h6 {
+  width: 70%;
+  font-size: 1rem;
+  padding-top: 4rem;
+  color: #abaeb3;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.all-content footer .last-footer .social-list {
+  display: flex;
+  padding-top: 4rem;
+  width: 30%;
+  list-style: none;
+}
+.all-content footer .last-footer .social-list li {
+  background-color: #373c41;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 1rem;
+}
+.all-content footer .last-footer .social-list li:first-of-type {
+  margin-left: 0;
+}
+.all-content footer .last-footer .social-list li a {
+  text-decoration: none;
+  color: #abaeb3;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact--form .big--form .avada-contact-btn,
+.avada-contact .avada-contact-text .avada-info-btn,
+.all-content .menu .navbar li,
+.all-content .menu .navbar li a,
+.all-content .menu .social-media .social-list li,
+.all-content .menu .social-media .social-list li a,
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.f_d_reservation,
+.food--drink,
+.about-us,
+.all-content .rest_body .branding,
+.all-content .rest_body .reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #ae895d;
+  height: 2px;
+  width: 20%;
+}
+
+.perspective {
+  z-index: 100;
+  position: relative;
+}
+
+.fade--animation {
+  animation: fade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.about-us {
+  z-index: 0;
+  height: 80vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../images/about-image.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.about-us .reserv {
+  padding: 0 10rem;
+  position: fixed;
+}
+.about-us .reserv h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: white;
+  font-weight: 200;
+  display: inline-block;
+}
+.about-us .reserv h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.about-us .reserv .underline::after {
+  margin: auto;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.event-one {
+  display: flex;
+  background-color: #24292d;
+}
+
+.event-two {
+  display: flex;
+  background-color: #2b3136;
+}
+
+.event-three {
+  display: flex;
+  background-color: #24292d;
+}
+
+.event-one-image {
+  width: 50%;
+}
+.event-one-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.event-one-text {
+  width: 50%;
+  padding: 4em;
+}
+.event-one-text span {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.event-one-text span:first-of-type {
+  color: #ae895d;
+  margin-right: 1rem;
+}
+.event-one-text h2 {
+  margin-bottom: 0.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 100;
+}
+.event-one-text p {
+  color: #abaeb3;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.event-one-text p:first-of-type {
+  margin-bottom: 2rem;
+}
+.event-one-text ul {
+  list-style: none;
+}
+.event-one-text ul li {
+  color: #abaeb3;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.event-one-text ul li::before {
+  content: "+ ";
+  color: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact--form .big--form .avada-contact-btn,
+.avada-contact .avada-contact-text .avada-info-btn,
+.all-content .menu .navbar li,
+.all-content .menu .navbar li a,
+.all-content .menu .social-media .social-list li,
+.all-content .menu .social-media .social-list li a,
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.f_d_reservation,
+.food--drink,
+.all-content .rest_body .branding,
+.all-content .rest_body .reservation,
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #ae895d;
+  height: 2px;
+  width: 20%;
+}
+
+.perspective {
+  z-index: 100;
+  position: relative;
+}
+
+.fade--animation {
+  animation: fade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.food--drink {
+  z-index: 0;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../images/fd.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.food--drink .f--d {
+  padding: 0 10rem;
+  position: fixed;
+}
+.food--drink .f--d h1 {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  color: white;
+  font-weight: 200;
+  display: inline-block;
+}
+.food--drink .f--d h3 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 200;
+  padding: 0 6rem;
+  line-height: 1.5;
+}
+.food--drink .f--d .underline::after {
+  margin: auto;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.food--price {
+  display: flex;
+  text-transform: uppercase;
+}
+.food--price .price--table {
+  width: 70%;
+  background-color: #373c41;
+  padding: 5rem;
+}
+.food--price .price--table h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 4rem;
+}
+.food--price .price--table .underline::after {
+  margin-top: 0.8rem;
+}
+.food--price .price--table h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 3rem;
+}
+.food--price .price--table span {
+  color: #ae895d;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.food--price .promo--table {
+  width: 30%;
+  background-color: #2b3136;
+}
+.food--price .promo--table .promo--text {
+  padding: 3rem;
+}
+.food--price .promo--table .promo--text span {
+  color: #ae895d;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.food--price .promo--table .promo--text h2 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+.food--price .promo--table .promo--image img {
+  width: 100%;
+  height: 640px;
+  object-fit: cover;
+}
+.food--price .two {
+  background-color: #24292d;
+}
+
+.f_d_reservation {
+  height: 600px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../images/coffee1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.f_d_reservation .reserv {
+  padding: 0 10rem;
+}
+.f_d_reservation .reserv h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: white;
+  font-weight: 200;
+  display: inline-block;
+}
+.f_d_reservation .reserv h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.f_d_reservation .reserv .underline::after {
+  margin: auto;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/*  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/coffee1.jpg"); */
+.drink--price {
+  display: flex;
+}
+.drink--price .drink--info {
+  width: 33.3333333333%;
+  background-color: #2b3136;
+  padding: 0 3rem;
+}
+.drink--price .drink--info h2 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 5rem;
+}
+.drink--price .drink--info p {
+  color: #abaeb3;
+  line-height: 1.7;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+.drink--price .drink--list {
+  width: 33.3333333333%;
+  background-color: #24292d;
+  padding: 0 5rem;
+}
+.drink--price .drink--list li {
+  margin-top: 1rem;
+  list-style: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.drink--price .drink--list li:first-of-type {
+  margin-top: 5rem;
+}
+.drink--price .drink--image {
+  width: 33.3333333333%;
+}
+.drink--price .drink--image img {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact--form .big--form .avada-contact-btn,
+.avada-contact .avada-contact-text .avada-info-btn,
+.all-content .menu .navbar li,
+.all-content .menu .navbar li a,
+.all-content .menu .social-media .social-list li,
+.all-content .menu .social-media .social-list li a,
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.all-content .rest_body .branding,
+.all-content .rest_body .reservation,
+.about-us,
+.food--drink,
+.f_d_reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #ae895d;
+  height: 2px;
+  width: 20%;
+}
+
+.perspective {
+  z-index: 100;
+  position: relative;
+}
+
+.fade--animation {
+  animation: fade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.location {
+  height: 80vh;
+  width: 100%;
+  background-color: #333;
+}
+.location .location--map {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact--form .big--form .avada-contact-btn,
+.avada-contact .avada-contact-text .avada-info-btn,
+.all-content .menu .navbar li,
+.all-content .menu .navbar li a,
+.all-content .menu .social-media .social-list li,
+.all-content .menu .social-media .social-list li a,
+.all-content .rest_body .avada-info .avada-info-text .avada-info-btn {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.all-content .rest_body .branding,
+.all-content .rest_body .reservation,
+.about-us,
+.food--drink,
+.f_d_reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #ae895d;
+  height: 2px;
+  width: 20%;
+}
+
+.perspective {
+  z-index: 100;
+  position: relative;
+}
+
+.fade--animation {
+  animation: fade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.avada-contact {
+  display: flex;
+}
+.avada-contact .avada-contact-text {
+  background-color: #2b3136;
+  color: white;
+  width: 50%;
+  padding: 4rem;
+}
+.avada-contact .avada-contact-text .avada-contact-imgs img {
+  width: 250px;
+}
+.avada-contact .avada-contact-text .avada-contact-imgs img:first-of-type {
+  margin-right: 1.5rem;
+}
+.avada-contact .avada-contact-text h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 4rem;
+}
+.avada-contact .avada-contact-text span {
+  color: #ae895d;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+}
+.avada-contact .avada-contact-text p {
+  margin: 3rem 0;
+  color: #abaeb3;
+  line-height: 1.8;
+}
+.avada-contact .avada-contact-text .avada-info-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  padding: 1rem 2rem;
+}
+.avada-contact .avada-contact-text .avada-info-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.avada-contact .avada-right-image {
+  width: 50%;
+}
+.avada-contact .avada-right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact--form {
+  background-color: #24292d;
+  text-align: center;
+  padding: 5rem;
+}
+.contact--form h2 {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.contact--form span {
+  display: inline-block;
+  color: #ae895d;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.contact--form .underline::after {
+  margin: auto;
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact--form .big--form {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact--form .big--form input,
+.contact--form .big--form select,
+.contact--form .big--form textarea {
+  height: 60px;
+  font-size: 1rem;
+  background-color: #313539;
+  outline: none;
+  border: none;
+  padding: 1rem 3rem;
+  color: white;
+}
+.contact--form .big--form textarea {
+  grid-column: 1/3;
+  height: 20vh;
+}
+.contact--form .big--form .avada-contact-btn {
+  grid-column: 1/3;
+  border: 1px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  padding: 1rem 2rem;
+}
+.contact--form .big--form .avada-contact-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (min-width: 701px) and (max-width: 1440px) {
+  .all-content {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  .all-content .responsive-menu {
+    display: none;
+  }
+  .all-content .menu {
+    background-color: #292c30;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+  }
+  .all-content .menu .logo {
+    width: 140px;
+    margin-bottom: 3rem;
+  }
+  .all-content .menu .logo img {
+    width: 100%;
+  }
+  .all-content .menu .navbar {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 3rem;
+  }
+  .all-content .menu .navbar li a {
+    font-size: 22px;
+  }
+  .all-content .rest_body {
+    position: absolute;
+    /* height: 2000px; */
+    left: 30%;
+    width: 70%;
+  }
+  .all-content .rest_body .avada-info {
+    display: block;
+  }
+  .all-content .rest_body .avada-info .avada-info-text {
+    padding: 3rem;
+    background-color: #2b3136;
+    color: white;
+    width: 100%;
+  }
+  .all-content
+    .rest_body
+    .avada-info
+    .avada-info-text
+    .avada-info-imgs
+    img:first-of-type {
+    margin-right: 1rem;
+  }
+  .all-content .rest_body .avada-info .avada-info-text h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 4rem;
+  }
+  .all-content .rest_body .avada-info .avada-info-text span {
+    color: #ae895d;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+  }
+  .all-content .rest_body .avada-info .avada-info-text p {
+    margin: 3rem 0;
+    color: #abaeb3;
+    line-height: 1.8;
+  }
+  .all-content .rest_body .avada-info .avada-info-text .avada-info-btn {
+    border: 1px solid white;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  .all-content .rest_body .avada-info .avada-info-text .avada-info-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .all-content .rest_body .avada-info .avada-right-image {
+    width: 100%;
+  }
+  .all-content .rest_body .avada-info .avada-right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .all-content .rest_body .avada-contact {
+    display: block;
+    padding-top: 0;
+  }
+  .all-content .rest_body .avada-contact .avada-contact-text {
+    width: 100%;
+    padding: 2rem;
+  }
+  .all-content
+    .rest_body
+    .avada-contact
+    .avada-contact-text
+    .avada-contact-imgs
+    img {
+    width: 350px;
+  }
+  .all-content
+    .rest_body
+    .avada-contact
+    .avada-contact-text
+    .avada-contact-imgs
+    img:first-of-type {
+    margin-bottom: 0rem;
+  }
+  .all-content .rest_body .avada-contact .avada-right-image {
+    width: 100%;
+  }
+  .all-content .rest_body .avada-contact .avada-right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .all-content .rest_body .reservation {
+    margin-top: -5px;
+  }
+  .all-content .rest_body .reservation .reserv {
+    padding: 0 10rem;
+  }
+  .all-content .rest_body .places {
+    display: block;
+  }
+  .all-content .rest_body .places .place-one,
+  .all-content .rest_body .places .place-two {
+    width: 100%;
+  }
+  .all-content .line-of-images {
+    display: flex;
+  }
+  .all-content .line-of-images .box {
+    width: 50%;
+  }
+  .all-content .line-of-images .box img {
+    object-fit: cover;
+    height: 200px;
+  }
+  .all-content .line-of-images .box .text {
+    padding: 3rem;
+    color: white;
+    text-transform: uppercase;
+  }
+  .all-content .line-of-images .box .text span {
+    color: #ae895d;
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  .all-content .line-of-images .box .text h2 {
+    margin-top: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  .all-content .about-us .reserv h3 {
+    font-size: 1.7rem;
+  }
+  .all-content .event-one,
+  .all-content .event-two,
+  .all-content .event-three {
+    display: block;
+  }
+  .all-content .event-one-image {
+    width: 100%;
+  }
+  .all-content .event-one-image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .all-content .event-one-text {
+    width: 100%;
+    padding: 3em;
+  }
+  .all-content .event-one-text h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+  }
+  .all-content .event-one-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .all-content .event-one-text ul li {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .all-content .food--drink .f--d {
+    padding: 2rem;
+  }
+  .all-content .food--drink .f--d h1 {
+    font-size: 4rem;
+  }
+  .all-content .food--drink .f--d h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  .all-content .food--price {
+    display: block;
+    text-transform: uppercase;
+  }
+  .all-content .food--price .price--table {
+    width: 100%;
+  }
+  .all-content .food--price .promo--table {
+    width: 100%;
+  }
+  .all-content .food--price .promo--table .promo--text {
+    padding: 3rem;
+  }
+  .all-content .drink--price {
+    display: block;
+  }
+  .all-content .drink--price .drink--info {
+    width: 100%;
+    padding: 3rem;
+  }
+  .all-content .drink--price .drink--info h2 {
+    margin-top: 0;
+  }
+  .all-content .drink--price .drink--list {
+    width: 100%;
+    padding: 3rem;
+  }
+  .all-content .drink--price .drink--list li:first-of-type {
+    margin-top: 0;
+  }
+  .all-content .drink--price .drink--image {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .all-content .contact--form {
+    padding: 3rem;
+    margin-top: -5px;
+  }
+  .all-content .contact--form h2 {
+    font-size: 4rem;
+  }
+  .all-content .contact--form span {
+    font-size: 1.2rem;
+  }
+  .all-content .contact--form .big--form {
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .all-content .contact--form .big--form textarea {
+    grid-column: 1/2;
+    height: 20vh;
+  }
+  .all-content .contact--form .big--form .avada-contact-btn {
+    grid-column: 1/2;
+  }
+  .all-content footer {
+    padding: 3rem;
+  }
+  .all-content footer .footer-logo {
+    padding-bottom: 3rem;
+  }
+  .all-content footer .our-info {
+    display: flex;
+  }
+  .all-content footer .our-info .info {
+    width: 33.3333333333%;
+    padding: 3rem 0 7rem 0;
+  }
+  .all-content footer .our-info .info h6 {
+    font-size: 1.5rem;
+  }
+  .all-content footer .our-info .info span {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+  }
+  .all-content footer .last-footer {
+    display: block;
+  }
+  .all-content footer .last-footer h6 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .all-content footer .last-footer .social-list {
+    display: flex;
+    padding-top: 4rem;
+    width: 50%;
+    margin: auto;
+    list-style: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .all-content {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .all-content .responsive-menu {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+    background-color: #292c30;
+  }
+  .all-content .responsive-menu .responsive-logo {
+    width: 50%;
+  }
+  .all-content .responsive-menu .menu-bars {
+    width: 10%;
+    cursor: pointer;
+  }
+  .all-content .responsive-menu .menu-bars .bar {
+    transition: all 0.5s ease;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 0.5rem;
+    background-color: #ae895d;
+  }
+  .all-content .responsive-menu .move .bar {
+    transition: all 0.5s ease;
+  }
+  .all-content .responsive-menu .move .bar:first-of-type {
+    transform: rotate(45deg) translateY(15px);
+  }
+  .all-content .responsive-menu .move .bar:nth-of-type(2) {
+    opacity: 0;
+  }
+  .all-content .responsive-menu .move .bar:last-of-type {
+    transform: rotate(-45deg) translateY(-15px);
+  }
+  .all-content .responsive-menu .rotate .bar {
+    transition: all 0.5s ease;
+    transform: rotate(360deg);
+  }
+  .all-content .show-menu {
+    background-color: #292c30;
+    transition: all 0.5s ease;
+    position: fixed;
+    z-index: 200;
+    top: 10vh;
+    left: 100%;
+    opacity: 0;
+    width: 100%;
+    height: 90vh;
+  }
+  .all-content .show-menu ul {
+    list-style: none;
+  }
+  .all-content .show-menu ul li {
+    transition: all 0.5s ease;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .all-content .show-menu ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+  }
+  .all-content .show-menu ul li a:hover {
+    color: #ae895d;
+  }
+  .all-content .hide {
+    left: 0;
+    opacity: 1;
+  }
+  .all-content .menu {
+    display: none;
+  }
+  .all-content .rest_body {
+    left: 0;
+    width: 100%;
+  }
+  .all-content .rest_body .avada-info {
+    display: block;
+  }
+  .all-content .rest_body .avada-info .avada-info-text {
+    padding: 2rem;
+    width: 100%;
+  }
+  .all-content
+    .rest_body
+    .avada-info
+    .avada-info-text
+    .avada-info-imgs
+    img:first-of-type {
+    margin-bottom: 1rem;
+  }
+  .all-content .rest_body .avada-info .avada-info-text h1 {
+    font-size: 3rem;
+  }
+  .all-content .rest_body .avada-info .avada-info-text span {
+    font-size: 18px;
+  }
+  .all-content .rest_body .avada-info .avada-right-image {
+    width: 100%;
+  }
+  .all-content .rest_body .avada-contact {
+    display: block;
+    padding-top: 6rem;
+  }
+  .all-content .rest_body .avada-contact .avada-contact-text {
+    width: 100%;
+    padding: 2rem;
+  }
+  .all-content
+    .rest_body
+    .avada-contact
+    .avada-contact-text
+    .avada-contact-imgs
+    img {
+    width: 350px;
+  }
+  .all-content
+    .rest_body
+    .avada-contact
+    .avada-contact-text
+    .avada-contact-imgs
+    img:first-of-type {
+    margin-bottom: 1.5rem;
+  }
+  .all-content .rest_body .avada-contact .avada-right-image {
+    width: 100%;
+  }
+  .all-content .rest_body .avada-contact .avada-right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .all-content .rest_body .reservation,
+  .all-content .rest_body .f_d_reservation {
+    margin-top: -5px;
+  }
+  .all-content .rest_body .reservation .reserv h1,
+  .all-content .rest_body .f_d_reservation .reserv h1 {
+    font-size: 4rem;
+  }
+  .all-content .rest_body .reservation .reserv h3,
+  .all-content .rest_body .f_d_reservation .reserv h3 {
+    font-size: 1.5rem;
+  }
+  .all-content .rest_body .places {
+    display: block;
+  }
+  .all-content .rest_body .places .place-one,
+  .all-content .rest_body .places .place-two {
+    width: 100%;
+    padding: 5rem;
+  }
+  .all-content .about-us .reserv h1 {
+    font-size: 3rem;
+  }
+  .all-content .about-us .reserv h3 {
+    font-size: 1.5rem;
+  }
+  .all-content .line-of-images {
+    display: block;
+  }
+  .all-content .line-of-images .box {
+    width: 100%;
+  }
+  .all-content .line-of-images .box img {
+    width: 100%;
+  }
+  .all-content .line-of-images .box .text {
+    padding: 3rem;
+  }
+  .all-content .line-of-images .box .text span {
+    font-size: 1.2rem;
+  }
+  .all-content .line-of-images .box .text h2 {
+    font-size: 2rem;
+  }
+  .all-content .event-one,
+  .all-content .event-two,
+  .all-content .event-three {
+    display: block;
+  }
+  .all-content .event-one-image {
+    width: 100%;
+  }
+  .all-content .event-one-image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .all-content .event-one-text {
+    width: 100%;
+    padding: 3em;
+  }
+  .all-content .event-one-text h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+  }
+  .all-content .event-one-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .all-content .event-one-text ul li {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .all-content .food--drink .f--d {
+    padding: 2rem;
+  }
+  .all-content .food--drink .f--d h1 {
+    font-size: 4rem;
+  }
+  .all-content .food--drink .f--d h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  .all-content .food--price {
+    display: block;
+    text-transform: uppercase;
+  }
+  .all-content .food--price .price--table {
+    width: 100%;
+  }
+  .all-content .food--price .promo--table {
+    width: 100%;
+  }
+  .all-content .food--price .promo--table .promo--text {
+    padding: 3rem;
+  }
+  .all-content .drink--price {
+    display: block;
+  }
+  .all-content .drink--price .drink--info {
+    width: 100%;
+    padding: 3rem;
+  }
+  .all-content .drink--price .drink--info h2 {
+    margin-top: 0;
+  }
+  .all-content .drink--price .drink--list {
+    width: 100%;
+    padding: 3rem;
+  }
+  .all-content .drink--price .drink--list li:first-of-type {
+    margin-top: 0;
+  }
+  .all-content .drink--price .drink--image {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .all-content .contact--form {
+    padding: 3rem;
+    margin-top: -5px;
+  }
+  .all-content .contact--form h2 {
+    font-size: 4rem;
+  }
+  .all-content .contact--form span {
+    font-size: 1.2rem;
+  }
+  .all-content .contact--form .big--form {
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .all-content .contact--form .big--form textarea {
+    grid-column: 1/2;
+    height: 20vh;
+  }
+  .all-content .contact--form .big--form .avada-contact-btn {
+    grid-column: 1/2;
+  }
+  .all-content footer {
+    padding: 2rem;
+  }
+  .all-content footer .footer-logo {
+    padding-bottom: 3rem;
+  }
+  .all-content footer .our-info {
+    display: flex;
+  }
+  .all-content footer .our-info .info {
+    width: 33.3333333333%;
+    padding: 3rem 0 7rem 0;
+  }
+  .all-content footer .our-info .info h6 {
+    font-size: 1.5rem;
+  }
+  .all-content footer .our-info .info span {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+  }
+  .all-content footer .last-footer {
+    display: block;
+  }
+  .all-content footer .last-footer h6 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .all-content footer .last-footer .social-list {
+    display: flex;
+    padding-top: 4rem;
+    width: 50%;
+    margin: auto;
+    list-style: none;
+  }
+}
