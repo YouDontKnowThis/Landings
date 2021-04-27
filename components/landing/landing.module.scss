@@ -110,12 +110,13 @@
       margin: 9rem auto 0;
       .info {
         h1 {
-          font-size: 2.5rem;
+          font-size: 2rem;
         }
         p {
           font-size: 17px;
         }
         .buttons {
+          display: block;
           .btn {
             font-size: 12px;
             padding: 0.9rem 1rem;
@@ -124,6 +125,7 @@
             }
           }
           .video {
+            margin-top: 0.7rem;
             .avatar {
               width: 40px;
               height: 40px;

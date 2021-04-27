@@ -47,10 +47,6 @@
     }
   }
   @media screen and (max-width: 426px) {
-    margin-top: 1rem;
-    .btn {
-      font-size: 12px;
-      padding: 0.6rem 0.5rem;
-    }
+    display: none;
   }
 }
