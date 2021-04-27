@@ -1,14 +1,38 @@
-// import Image from "next/image";
 import classes from "./left.module.scss";
 import Bag from "../../../icons/bag";
 import Localisation from "../../../icons/localisation";
 import Card from "../../../ui/card/card";
+import { useSpring, animated as anim, config } from "react-spring";
 
 function Left() {
+  const i1 = useSpring({
+    bounce: true,
+    loop: { reverse: true },
+    from: { translateY: 0 },
+    to: { translateY: -70 },
+    delay: 500,
+    config: config.wobbly,
+  });
+
+  const i2 = useSpring({
+    loop: true,
+    from: { rotate: 0 },
+    to: { rotate: 360 },
+    config: { duration: 2500 },
+  });
+
   return (
     <div className={classes.wrapper}>
-      <img className={classes.i1} src="/images/accessoirs/loc.png" />
-      <img className={classes.i2} src="/images/accessoirs/compass.png" />
+      <anim.img
+        style={i1}
+        className={classes.i1}
+        src="/images/accessoirs/loc.png"
+      />
+      <anim.img
+        className={classes.i2}
+        style={i2}
+        src="/images/accessoirs/compass.png"
+      />
       <img className={classes.i3} src="/images/people/girl.svg" />
       <img className={classes.i4} src="/images/accessoirs/ellipse.svg" />
       <img className={classes.i5} src="/images/accessoirs/circle.svg" />
