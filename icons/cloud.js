@@ -1,6 +1,7 @@
 function Cloud() {
   return (
     <svg
+      style={{ position: "absolute", top: "65%", right: "15%" }}
       xmlns="http://www.w3.org/2000/svg"
       width="53"
       height="31"

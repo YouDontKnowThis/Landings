@@ -1,7 +1,7 @@
-function Plan({ className }) {
+function Plan() {
   return (
     <svg
-      className={className}
+      style={{ position: "absolute", top: "75%", right: "5%" }}
       xmlns="http://www.w3.org/2000/svg"
       width="99"
       height="39"

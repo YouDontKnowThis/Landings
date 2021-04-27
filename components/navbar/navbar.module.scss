@@ -30,6 +30,7 @@
     color: white;
     &:hover {
       background-color: var(--text-color-hover);
+      transform: scale(1.03);
     }
   }
   @media screen and (max-width: 769px) {

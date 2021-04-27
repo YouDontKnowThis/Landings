@@ -1,6 +1,15 @@
+import { useSpring, animated as anim } from "react-spring";
+
 function Bag({ className }) {
+  const a1 = useSpring({
+    loop: { reverse: true },
+    from: { rotate: -10, translateY: 0 },
+    to: { rotate: 10, translateY: 25 },
+    config: { duration: 1700 },
+  });
   return (
-    <svg
+    <anim.svg
+      style={a1}
       className={className}
       xmlns="http://www.w3.org/2000/svg"
       width="87"
@@ -94,7 +103,7 @@ function Bag({ className }) {
         d="M67.249 29.838H70.898V68.887H67.249z"
         transform="rotate(25.252 67.25 29.838)"
       ></path>
-    </svg>
+    </anim.svg>
   );
 }
 

@@ -20,6 +20,9 @@
     align-items: center;
     border-radius: 10px;
     z-index: 2;
+    span {
+      margin-left: 0.4rem;
+    }
   }
   .overlay {
     position: absolute;

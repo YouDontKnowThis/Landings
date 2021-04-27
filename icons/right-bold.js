@@ -1,7 +1,16 @@
+import { useSpring, animated as anim } from "react-spring";
+
 function RightBold({ className }) {
+  const a1 = useSpring({
+    loop: { reverse: true },
+    from: { scale: 1 },
+    to: { scale: 1.2 },
+    config: { duration: 600 },
+  });
   return (
-    <svg
+    <anim.svg
       className={className}
+      style={{ cursor: "pointer", ...a1 }}
       xmlns="http://www.w3.org/2000/svg"
       width="54"
       height="54"
@@ -44,7 +53,7 @@ function RightBold({ className }) {
           ></feBlend>
         </filter>
       </defs>
-    </svg>
+    </anim.svg>
   );
 }
 

@@ -1,6 +1,15 @@
+import { useSpring, animated as anim } from "react-spring";
+
 function Localisation({ className }) {
+  const a1 = useSpring({
+    loop: { reverse: true },
+    from: { rotate: -10, translateY: 0 },
+    to: { rotate: 30, translateY: -20 },
+    config: { duration: 1700 },
+  });
   return (
-    <svg
+    <anim.svg
+      style={a1}
       className={className}
       xmlns="http://www.w3.org/2000/svg"
       width="56"
@@ -27,7 +36,7 @@ function Localisation({ className }) {
         strokeWidth="2"
         transform="rotate(-12.99 26.352 27.049)"
       ></circle>
-    </svg>
+    </anim.svg>
   );
 }
 

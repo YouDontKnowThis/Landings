@@ -2,6 +2,8 @@ import classes from "./landing.module.scss";
 import Left from "./left/left";
 import RightLight from "../../icons/right-light";
 import RightBold from "../../icons/right-bold";
+import Cloud from "../../icons/cloud";
+import Plan from "../../icons/plan";
 import Button from "../../ui/button/button";
 
 function landing() {
@@ -12,7 +14,13 @@ function landing() {
       </div>
       <div className={classes.right}>
         <div className={classes.info}>
-          <h1>Life is short and the world is wide!</h1>
+          <h1>
+            Explore
+            <br />
+            the Beauty
+            <br />
+            of the World!
+          </h1>
           <p>
             To get the base of your adventure you just need to leave and go
             where you like. We are waiting for you.
@@ -37,6 +45,8 @@ function landing() {
           src="/images/accessoirs/map.png"
           alt="map"
         />
+        <Cloud />
+        <Plan />
       </div>
     </div>
   );
