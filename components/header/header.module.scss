@@ -1,0 +1,47 @@
+.header {
+  padding: 2rem 0;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      align-items: center;
+      .logo {
+        span {
+          font-family: "lufga_bold";
+          font-size: 28px;
+          em {
+            color: var(--main-color);
+          }
+        }
+        margin-right: 5rem;
+      }
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .content {
+      .left {
+        .logo {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .content {
+      display: block;
+      .left {
+        display: block;
+        .logo {
+          text-align: center;
+          margin-right: 0;
+          margin-bottom: 0.8rem;
+          span {
+            font-size: 45px;
+          }
+        }
+      }
+    }
+  }
+}

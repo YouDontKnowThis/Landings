@@ -1,0 +1,36 @@
+.content {
+  padding: 0 5rem;
+  margin-top: 5rem;
+  .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    h2 {
+      font-size: 35px;
+      margin-right: 1rem;
+    }
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 769px) {
+    .title {
+      h2 {
+        font-size: 25px;
+      }
+    }
+  }
+  @media screen and (max-width: 426px) {
+    padding: 0 1rem;
+    .title {
+      h2 {
+        font-size: 20px;
+        margin-right: 0.3rem;
+      }
+    }
+    .list {
+      flex-wrap: wrap;
+    }
+  }
+}

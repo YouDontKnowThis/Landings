@@ -1,16 +1,69 @@
-html,
-body {
-  padding: 0;
+html:root {
+  --main-color: #ffcd6b;
+  --main-color-hover: hsl(40, 100%, 76%);
+  --text-color: #1f314a;
+  --text-color-hover: hsl(215, 41%, 30%);
+  --input-color: #c2c2c2;
+}
+
+*,
+*::after,
+*::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "lufga_light";
+  src: url("../public/fonts/Lufga-Light.ttf");
+}
+@font-face {
+  font-family: "lufga_regular";
+  src: url("../public/fonts/Lufga-Regular.ttf");
+}
+@font-face {
+  font-family: "lufga_semibold";
+  src: url("../public/fonts/Lufga-SemiBold.ttf");
+}
+@font-face {
+  font-family: "lufga_bold";
+  src: url("../public/fonts/Lufga-Bold.ttf");
+}
+
+body {
+  font-family: "lufga_regular", sans-serif;
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "lufga_bold", sans-serif;
+}
+
+button {
+  font-family: "lufga_semibold", sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  font-family: "lufga_semibold", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  width: 95%;
+  max-width: 1440px;
+  margin: auto;
 }
