@@ -17,9 +17,9 @@ function landing() {
           <h1>
             Explore
             <br />
-            the Beauty
+            The Beauty
             <br />
-            of the World!
+            Of the World.
           </h1>
           <p>
             To get the base of your adventure you just need to leave and go

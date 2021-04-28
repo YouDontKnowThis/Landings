@@ -33,9 +33,7 @@ function Left() {
         style={i2}
         src="/images/accessoirs/compass.png"
       />
-      <img className={classes.i3} src="/images/people/girl.svg" />
-      <img className={classes.i4} src="/images/accessoirs/ellipse.svg" />
-      <img className={classes.i5} src="/images/accessoirs/circle.svg" />
+      <img className={classes.i3} src="/images/people/girl.png" />
       <Bag className={classes.v1} />
       <Localisation className={classes.v2} />
       <Card />
