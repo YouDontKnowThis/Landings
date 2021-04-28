@@ -11,10 +11,10 @@ function Cities() {
           <Image src="/images/accessoirs/plan.png" width={26} height={26} />
         </div>
         <div className={classes.list}>
-          <City src="/images/cities/paris.jpg" name="Paris" />
-          <City src="/images/cities/london.jpg" name="London" />
-          <City src="/images/cities/bali.jpg" name="Bali" />
           <City src="/images/cities/roma.jpg" name="Roma" />
+          <City src="/images/cities/bali.jpg" name="Bali" />
+          <City src="/images/cities/fira.jpg" name="Fira" />
+          <City src="/images/cities/paris.jpg" name="Paris" />
         </div>
       </div>
     </div>
