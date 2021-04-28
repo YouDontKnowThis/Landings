@@ -48,6 +48,20 @@
     }
   }
   @media screen and (max-width: 426px) {
-    display: none;
+    display: block;
+    margin-top: 1rem;
+    ul {
+      justify-content: space-evenly;
+      li {
+        margin: 0;
+      }
+    }
+    .btn {
+      display: block;
+      margin: auto;
+      padding: 0.7rem 1rem;
+      font-size: 16px;
+      margin-top: 1rem;
+    }
   }
 }

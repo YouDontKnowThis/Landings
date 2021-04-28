@@ -7,7 +7,7 @@ function Cities() {
     <div className="container">
       <div className={classes.content}>
         <div className={classes.title}>
-          <h2>Discover the touch of nature</h2>
+          <h2>Discover the nature</h2>
           <Image src="/images/accessoirs/plan.png" width={26} height={26} />
         </div>
         <div className={classes.list}>
