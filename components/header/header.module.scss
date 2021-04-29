@@ -1,0 +1,42 @@
+.header {
+  padding: 1rem;
+  background-color: #222;
+  .navbar {
+    .logo {
+      color: var(--main-color);
+    }
+    ul {
+      margin-left: 6rem;
+      li {
+        &:not(:first-child) {
+          margin-left: 2rem;
+        }
+        a {
+          position: relative;
+          transition: all 0.4s linear;
+          &:hover {
+            color: var(--main-color);
+            &::before {
+              content: "";
+              position: absolute;
+              top: -5px;
+              left: 50%;
+              transform: translateX(-50%);
+              height: 5px;
+              width: 5px;
+              border-radius: 50%;
+              background-color: var(--main-color);
+            }
+          }
+        }
+      }
+    }
+  }
+  .user {
+    div {
+      &:last-child {
+        margin-left: 1rem;
+      }
+    }
+  }
+}

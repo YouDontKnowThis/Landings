@@ -1,16 +1,83 @@
-html,
-body {
-  padding: 0;
+/* GLOBAL VARIABLES */
+:root {
+  --bg-color: hsla(0, 0%, 13%, 0.95);
+  --main-color: hsla(259, 100%, 77%, 1);
+}
+
+/* Global style (simple reset) */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+}
+
+/* Fonts (LUFGA) */
+@font-face {
+  font-family: "lufga_light";
+  src: url("/fonts/Lufga-Light.ttf");
+}
+@font-face {
+  font-family: "lufga_regular";
+  src: url("/fonts/Lufga-Regular.ttf");
+}
+@font-face {
+  font-family: "lufga_semibold";
+  src: url("/fonts/Lufga-SemiBold.ttf");
+}
+@font-face {
+  font-family: "lufga_bold";
+  src: url("/fonts/Lufga-Bold.ttf");
+}
+
+body {
+  font-family: "lufga_regular", sans-serif;
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 75rem;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 a {
   color: inherit;
+  opacity: 0.6;
   text-decoration: none;
+  font-size: 16px;
 }
 
-* {
-  box-sizing: border-box;
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+/** FRAMEWORK */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.jc {
+  justify-content: space-between;
+}
+
+.a-link {
+  color: var(--main-color);
+  opacity: 1;
+}
+.a-link::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: var(--main-color);
 }
