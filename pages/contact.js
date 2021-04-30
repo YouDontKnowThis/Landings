@@ -1,12 +1,17 @@
+import Head from "next/head";
 import Header from "../components/header/header";
+import Hero from "../components/hero/hero";
 
 function contact() {
   return (
     <>
+      <Head>
+        <title>Drone - login</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Header />
-      <div className="container">
-        <h1>this is the contact page</h1>
-      </div>
+      <Hero />
+      <div className="overlay" />
     </>
   );
 }

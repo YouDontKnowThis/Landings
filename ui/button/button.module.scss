@@ -3,9 +3,9 @@
   display: block;
   margin-top: 2rem;
   padding: 18.2316px 50.1368px;
-  background: rgba(34, 34, 34, 0.9);
+  background: linear-gradient(0deg, #b08bff, #b08bff), rgba(34, 34, 34, 0.9);
   width: 100%;
-  border: 2px solid rgba(255, 255, 255, 0.4);
+  border: none;
   outline: none;
   color: white;
   font-family: inherit;
@@ -19,16 +19,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: conic-gradient(
-      from 252.12deg at 50% 50%,
-      #54e0ff -60deg,
-      #9887ff 48.75deg,
-      #fc72b4 131.25deg,
-      #ffaedd 215.62deg,
-      #54e0ff 300deg,
-      #9887ff 408.75deg
-    );
-    filter: blur(26.8026px);
     border-radius: 9px;
     z-index: -1;
     margin: -2px;

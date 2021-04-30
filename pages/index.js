@@ -1,17 +1,16 @@
 import Head from "next/head";
 import Header from "../components/header/header";
-import Hero from "../components/hero/hero";
+import Home from "../components/home/home";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Drone - form</title>
+        <title>Drone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Hero />
-      <div className="overlay" />
+      <Home />
     </>
   );
 }

@@ -11,7 +11,7 @@
     p {
       opacity: 0.6;
       font-size: 21px;
-      margin-right: 1.5rem;
+      margin-right: 1rem;
     }
     h3 {
       font-size: 20px;
@@ -29,21 +29,21 @@
     width: 60%;
   }
   @media screen and (max-width: 426px) {
-    margin: 4rem auto 2rem;
-    width: 90%;
+    margin: 5rem auto 2rem;
+    width: 97%;
     h1 {
-      font-size: 35px;
+      font-size: 30px;
     }
     .notMember {
       h3 {
-        font-size: 19px;
+        font-size: 16px;
       }
       p {
-        font-size: 17px;
+        font-size: 15px;
       }
     }
     a {
-      font-size: 14px;
+      font-size: 13px;
     }
   }
 }
