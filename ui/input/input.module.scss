@@ -1,0 +1,66 @@
+.control {
+  margin-bottom: 1.5rem;
+  label {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 18px;
+    opacity: 0.6;
+  }
+  .input {
+    overflow: hidden;
+    width: 100%;
+    background: rgba(34, 34, 34, 0.6);
+    border: 2.2721px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    input {
+      outline: 0;
+      border: 0;
+      height: 100%;
+      padding: 0.9rem 0;
+      flex: 1;
+      background-color: transparent;
+      color: white;
+      font-size: 18px;
+    }
+    .icon {
+      cursor: pointer;
+    }
+  }
+  &:first-of-type {
+    .input {
+      .icon {
+        position: relative;
+        background-color: var(--bg-color);
+        padding: 0.3rem 0.2rem;
+        border-radius: 9px;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        display: grid;
+        place-items: center;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: conic-gradient(
+            from 252.12deg at 50% 50%,
+            #54e0ff -60deg,
+            #9887ff 48.75deg,
+            #fc72b4 131.25deg,
+            #ffaedd 215.62deg,
+            #54e0ff 300deg,
+            #9887ff 408.75deg
+          );
+          filter: blur(3.8026px);
+          border-radius: 9px;
+          z-index: -1;
+          margin: -5px;
+        }
+      }
+    }
+  }
+}

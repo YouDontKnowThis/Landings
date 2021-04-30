@@ -1,6 +1,6 @@
 /* GLOBAL VARIABLES */
 :root {
-  --bg-color: hsla(0, 0%, 13%, 0.95);
+  --bg-color: hsla(0, 0%, 9%, 1);
   --main-color: hsla(259, 100%, 77%, 1);
 }
 
@@ -35,9 +35,17 @@ body {
   color: white;
 }
 
-.container {
+.container-md {
   width: 100%;
-  max-width: 75rem;
+  max-width: 80rem;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-lg {
+  width: 100%;
+  max-width: 90rem;
   margin: auto;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -80,4 +88,27 @@ li {
   width: 5px;
   border-radius: 50%;
   background-color: var(--main-color);
+}
+
+.overlay {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #d8c6ff -13.46%, var(--bg-color) 100%);
+  opacity: 0.05;
+  backdrop-filter: blur(30px);
+}
+
+.tg {
+  background: linear-gradient(90deg, #ccb5ff 0%, #ffade8 100%);
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: "lufga_bold";
 }

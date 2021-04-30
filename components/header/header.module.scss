@@ -1,9 +1,17 @@
 .header {
   padding: 1rem;
-  background-color: #222;
+  background-color: var(--bg-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
   .navbar {
     .logo {
-      color: var(--main-color);
+      color: white;
+      em {
+        color: var(--main-color);
+        font-weight: bold;
+      }
     }
     ul {
       margin-left: 6rem;
@@ -14,26 +22,41 @@
         a {
           position: relative;
           transition: all 0.4s linear;
+          font-size: 14px;
           &:hover {
             color: var(--main-color);
-            &::before {
-              content: "";
-              position: absolute;
-              top: -5px;
-              left: 50%;
-              transform: translateX(-50%);
-              height: 5px;
-              width: 5px;
-              border-radius: 50%;
-              background-color: var(--main-color);
-            }
+            opacity: 1;
           }
         }
+      }
+      @media screen and (max-width: 426px) {
+        display: none;
       }
     }
   }
   .user {
     div {
+      &:first-child {
+        position: relative;
+        display: grid;
+        place-items: center;
+        padding: 6px;
+        margin-top: -4px;
+        background-color: var(--main-color);
+        border-radius: 10px;
+        cursor: pointer;
+        &::after {
+          content: "";
+          position: absolute;
+          top: -3px;
+          right: -3px;
+          width: 7px;
+          height: 7px;
+          background: var(--main-color);
+          border-radius: 50%;
+          border: 2px solid #111;
+        }
+      }
       &:last-child {
         margin-left: 1rem;
       }

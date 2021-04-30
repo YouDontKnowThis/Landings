@@ -1,0 +1,49 @@
+.form {
+  width: 30%;
+  margin: auto;
+  h1 {
+    font-size: 45px;
+    margin-bottom: 0.5rem;
+  }
+  .notMember {
+    display: flex;
+    align-items: center;
+    p {
+      opacity: 0.6;
+      font-size: 21px;
+      margin-right: 1.5rem;
+    }
+    h3 {
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  form {
+    margin-top: 1.8rem;
+  }
+  @media screen and (max-width: 1025px) {
+    width: 38%;
+  }
+  @media screen and (max-width: 769px) {
+    margin: 4rem auto 2rem;
+    width: 60%;
+  }
+  @media screen and (max-width: 426px) {
+    margin: 4rem auto 2rem;
+    width: 90%;
+    h1 {
+      font-size: 35px;
+    }
+    .notMember {
+      h3 {
+        font-size: 19px;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+    a {
+      font-size: 14px;
+    }
+  }
+}
