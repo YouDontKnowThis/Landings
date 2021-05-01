@@ -1,8 +1,14 @@
+import IllustrationHome from "./illustration/illustration";
+import Main from "./main/main";
+
 function Home() {
   return (
-    <div style={{ marginTop: "6rem" }}>
+    <div className="mg-t-lg">
       <div className="container-md">
-        <h1>This is the home page</h1>
+        <div className="flex jc">
+          <Main />
+          <IllustrationHome />
+        </div>
       </div>
     </div>
   );

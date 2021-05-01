@@ -2,13 +2,13 @@ function Bag() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="18"
-      height="19"
+      width="15.95"
+      height="16.62"
       fill="none"
       viewBox="0 0 18 19"
     >
       <path
-        stroke="#fff"
+        stroke="hsla(0, 0%, 100%, 0.5)"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.429"

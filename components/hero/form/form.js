@@ -3,12 +3,17 @@ import Input from "../../../ui/input/input";
 import EmailIcon from "../../../icons/form/email";
 import PassIcon from "../../../icons/form/password";
 import Toggle from "../../../ui/toggle-btn/toggle";
-import Button from "../../../ui/button/button";
+import { Button } from "../../../ui/button/button";
 
 function Form() {
   return (
     <div className={classes.form}>
-      <h1>Sign in To Drone.</h1>
+      <h1>
+        Sign in To
+        <span>
+          Drone<em>.</em>
+        </span>
+      </h1>
       <div className={classes.notMember}>
         <p>Not a member?</p>
         <h3 className="tg">Sign up</h3>

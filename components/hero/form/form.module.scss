@@ -4,6 +4,15 @@
   h1 {
     font-size: 45px;
     margin-bottom: 0.5rem;
+    span {
+      margin-left: 0.6rem;
+      font-size: 40px;
+      text-transform: uppercase;
+      color: #fff;
+      em {
+        color: var(--main-color);
+      }
+    }
   }
   .notMember {
     display: flex;

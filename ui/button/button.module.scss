@@ -28,3 +28,29 @@
     padding: 15.2316px 40.1368px;
   }
 }
+
+.buttonIcon {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0.5rem 0.5rem;
+  background: #b08bff;
+  border-radius: 40.3654px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: inherit;
+  font-size: 17px;
+  cursor: pointer;
+  span {
+    margin-left: 1.5rem;
+  }
+  .icon {
+    margin-left: 1rem;
+    display: grid;
+    place-items: center;
+    padding: 0.7rem;
+    border-radius: 50%;
+    background: #8c62e8;
+  }
+}

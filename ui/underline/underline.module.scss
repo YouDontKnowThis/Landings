@@ -1,0 +1,16 @@
+.underline {
+  font-size: 90px;
+  color: white;
+  line-height: 1.1;
+  span {
+    display: inline-block;
+    transform: rotate(-3.5deg);
+    .line {
+      margin-top: -4rem;
+      margin-left: -0.5rem;
+      transform: rotate(2.2deg);
+      position: relative;
+      z-index: -1;
+    }
+  }
+}

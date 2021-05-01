@@ -32,7 +32,7 @@
 body {
   font-family: "lufga_regular", sans-serif;
   background-color: var(--bg-color);
-  color: white;
+  color: #eee;
 }
 
 .container-md {
@@ -101,11 +101,23 @@ li {
   backdrop-filter: blur(30px);
 }
 
+.bold {
+  font-family: "lufga_bold", sans-serif;
+}
+
 .tg {
   background: linear-gradient(90deg, #ccb5ff 0%, #ffade8 100%);
   background-clip: text;
   -moz-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
+}
+
+.mg-t-sm {
+  margin-top: 5rem;
+}
+
+.mg-t-lg {
+  margin-top: 9rem;
 }
 
 .bold {
