@@ -1,6 +1,11 @@
-function AnimationIcon() {
+function AnimationIcon({ className }) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 725 532">
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 725 532"
+    >
       <g id="Layer">
         <path
           id="Vector"

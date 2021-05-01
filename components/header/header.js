@@ -27,7 +27,9 @@ function Header() {
               <Bag />
             </div>
             <div>
-              <UserIcon />
+              <ActiveLink href="/contact">
+                <UserIcon />
+              </ActiveLink>
             </div>
           </div>
         </div>
