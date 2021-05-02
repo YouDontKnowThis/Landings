@@ -9,8 +9,8 @@ function Main() {
     <div className={classes.main}>
       <Underline title="Let's fly" underTitle="Higher" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
-        cras urna id viverra.
+        DRONE. camera drones contain the best drone technology for every type of
+        user and shooting scenario.
       </p>
       <ButtonIcon text="Pick your drone" Icon={DronSmall} />
       <div className={classes.arrow}>
