@@ -14,7 +14,7 @@ export default function HomePage() {
       <Home />
       <BackgroundHome />
       <img
-        className="bg_gradient"
+        className="desk_only"
         src="/bg.svg"
         style={{
           position: "absolute",
