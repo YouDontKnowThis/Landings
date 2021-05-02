@@ -10,10 +10,10 @@ import classes from "./home.module.scss";
 function Home() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <>
+    <div className={classes.home}>
       <div className="mg-t-lg">
         <div className="container-md">
-          <div className={classes.home}>
+          <div className={classes.content}>
             <Main />
             <IllustrationHome />
           </div>
@@ -26,7 +26,7 @@ function Home() {
           </Modal>
         )}
       </div>
-    </>
+    </div>
   );
 }
 
