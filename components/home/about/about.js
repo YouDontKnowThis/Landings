@@ -25,17 +25,19 @@ const cards = [
 
 function About() {
   return (
-    <div className={classes.about}>
-      <div className={classes.list}>
-        {cards.map((card, index) => (
-          <div key={index} className={classes.card}>
-            <div className={classes.icon}>
-              <img src={card.icon} alt="" />
+    <div className="container-lg">
+      <div className={classes.about}>
+        <div className={classes.list}>
+          {cards.map((card, index) => (
+            <div key={index} className={classes.card}>
+              <div className={classes.icon}>
+                <img src={card.icon} alt="" />
+              </div>
+              <h2>{card.number}</h2>
+              <p>{card.text}</p>
             </div>
-            <h2>{card.number}</h2>
-            <p>{card.text}</p>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

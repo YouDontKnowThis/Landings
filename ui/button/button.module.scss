@@ -23,6 +23,7 @@
     z-index: -1;
     margin: -2px;
   }
+
   @media screen and (max-width: 426px) {
     font-size: 19px;
     padding: 15.2316px 40.1368px;
@@ -42,6 +43,10 @@
   font-family: inherit;
   font-size: 17px;
   cursor: pointer;
+  transition: all 0.3s linear;
+  &:hover {
+    transform: scale(1.02);
+  }
   span {
     margin-left: 1.5rem;
   }

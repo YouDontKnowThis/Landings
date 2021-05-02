@@ -1,7 +1,7 @@
 function BackgroundHome() {
   const style = {
     position: "absolute",
-    top: "0",
+    top: "-50px",
     right: "0",
     zIndex: "30",
   };
@@ -10,8 +10,8 @@ function BackgroundHome() {
       className="desk_only"
       style={style}
       xmlns="http://www.w3.org/2000/svg"
-      width="678"
-      height="690"
+      width="828"
+      height="850"
       fill="none"
       viewBox="0 0 678 690"
     >

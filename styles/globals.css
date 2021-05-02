@@ -125,7 +125,14 @@ li {
   font-family: "lufga_bold";
 }
 
-@media screen and (max-width: 1026px) {
+.bg_gradient {
+  background: linear-gradient(to right, var(--bg-color) 40%, transparent 60%);
+}
+.bg_fill {
+  background-color: var(--bg-color);
+}
+
+@media screen and (max-width: 1600px) {
   .desk_only {
     display: none;
   }

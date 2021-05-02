@@ -10,6 +10,14 @@
     }
   }
 }
+.cartona_1 {
+  animation: bounce 2.5s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.cartona_2 {
+  animation: bounce 2.5s ease-in-out;
+}
 
 @keyframes bounce {
   0%,

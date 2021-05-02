@@ -1,10 +1,9 @@
 .header {
   padding: 1rem;
-  background: linear-gradient(to right, var(--bg-color) 40%, transparent 60%);
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 50;
+  z-index: 200;
   .navbar {
     .logo {
       color: white;
@@ -55,7 +54,7 @@
           height: 7px;
           background: var(--main-color);
           border-radius: 50%;
-          border: 3px solid var(--bg-color);
+          border: 3px solid #28242f;
         }
       }
       &:last-child {

@@ -4,7 +4,7 @@ import HomeAnimation from "../../../icons/animation/home-animation";
 function IllustrationHome() {
   return (
     <div className={classes.illustration}>
-      <HomeAnimation />
+      <HomeAnimation className={classes.icon} />
     </div>
   );
 }
