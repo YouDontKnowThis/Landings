@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import Link from "next/link";
 import ActiveLink from "../../ui/active-link/active-link";
 import UserIcon from "../../icons/header/user";
 import Bag from "../../icons/header/bag";
@@ -7,17 +8,15 @@ import classes from "./header.module.scss";
 function Header() {
   const [scroll, setScroll] = useState(false);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 90) {
-          setScroll(true);
-        } else {
-          setScroll(false);
-        }
-      });
-    }
-  }, []);
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 90) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    });
+  }
 
   return (
     <header
@@ -27,9 +26,13 @@ function Header() {
         <div className="flex jc">
           <nav className={`${classes.navbar} flex`}>
             <div className={classes.logo}>
-              <h2>
-                Drone<em>.</em>
-              </h2>
+              <Link href="/">
+                <a>
+                  <h2>
+                    Drone<em>.</em>
+                  </h2>
+                </a>
+              </Link>
             </div>
             <ul className="flex">
               <ActiveLink href="/">Home</ActiveLink>

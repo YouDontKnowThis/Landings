@@ -8,7 +8,7 @@ function Video({ setShowModal }) {
     <div className={classes.video}>
       <div className={classes.thubmail}>
         <Image src="/thubmail.svg" alt="thubmail" width={195} height={149} />
-        <PlayIcon onClick={() => setShowModal(true)} />
+        <PlayIcon className={classes.play} onClick={() => setShowModal(true)} />
       </div>
       <div className={classes.text}>
         <DroneIcon />

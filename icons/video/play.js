@@ -1,19 +1,9 @@
-function PlayIcon({ onClick }) {
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    cursor: "pointer",
-  };
-
+function PlayIcon({ onClick, className }) {
   return (
     <svg
-      style={style}
       onClick={onClick}
+      className={className}
       xmlns="http://www.w3.org/2000/svg"
-      width="107"
-      height="107"
       fill="none"
       viewBox="0 0 107 107"
     >

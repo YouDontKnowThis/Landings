@@ -4,6 +4,14 @@
   align-items: center;
   .thubmail {
     position: relative;
+    .play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+      animation: scale 2s ease-in-out infinite;
+    }
   }
   .text {
     margin-left: 1rem;
@@ -17,10 +25,21 @@
       opacity: 0.6;
     }
   }
+
   @media screen and (max-width: 769px) {
     margin-top: 6rem;
   }
   @media screen and (max-width: 426px) {
     padding: 0.5rem 0;
+  }
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.09);
   }
 }

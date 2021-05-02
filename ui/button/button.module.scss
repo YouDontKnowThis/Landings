@@ -12,17 +12,6 @@
   font-size: 22px;
   border-radius: 10px;
   cursor: pointer;
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 9px;
-    z-index: -1;
-    margin: -2px;
-  }
 
   @media screen and (max-width: 426px) {
     font-size: 19px;
@@ -31,6 +20,7 @@
 }
 
 .buttonIcon {
+  position: relative;
   display: flex;
   align-items: center;
   margin-top: 2rem;
@@ -45,7 +35,7 @@
   cursor: pointer;
   transition: all 0.3s linear;
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.01) translateY(-2px);
   }
   span {
     margin-left: 1.5rem;
@@ -57,5 +47,19 @@
     padding: 0.7rem;
     border-radius: 50%;
     background: #8c62e8;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 9px;
+    z-index: -1;
+    margin: -0.1px;
+    background: #b08bff;
+    opacity: 0.5;
+    filter: blur(60px);
   }
 }

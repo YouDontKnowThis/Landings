@@ -10,21 +10,23 @@ import classes from "./home.module.scss";
 function Home() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="mg-t-lg">
-      <div className="container-md">
-        <div className={classes.home}>
-          <Main />
-          <IllustrationHome />
+    <>
+      <div className="mg-t-lg">
+        <div className="container-md">
+          <div className={classes.home}>
+            <Main />
+            <IllustrationHome />
+          </div>
+          <Video setShowModal={setShowModal} />
         </div>
-        <Video setShowModal={setShowModal} />
+        <About />
+        {showModal && (
+          <Modal setShowModal={setShowModal}>
+            <ReactPlayer url="https://www.youtube.com/watch?v=IM6od1FTPPE" />
+          </Modal>
+        )}
       </div>
-      <About />
-      {showModal && (
-        <Modal setShowModal={setShowModal}>
-          <ReactPlayer url="https://www.youtube.com/watch?v=IM6od1FTPPE" />
-        </Modal>
-      )}
-    </div>
+    </>
   );
 }
 
