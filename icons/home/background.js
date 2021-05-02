@@ -7,6 +7,7 @@ function BackgroundHome() {
   };
   return (
     <svg
+      className="desk_only"
       style={style}
       xmlns="http://www.w3.org/2000/svg"
       width="678"

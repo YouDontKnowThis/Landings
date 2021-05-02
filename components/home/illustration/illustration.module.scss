@@ -1,3 +1,7 @@
 .illustration {
-  width: 50%;
+  width: 55%;
+  margin-top: -5rem;
+  @media screen and (max-width: 769px) {
+    width: 100%;
+  }
 }

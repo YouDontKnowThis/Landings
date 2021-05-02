@@ -1,5 +1,5 @@
 .video {
-  padding: 2rem 5rem;
+  padding: 0.5rem 5rem;
   display: flex;
   align-items: center;
   .thubmail {
@@ -16,5 +16,11 @@
       margin: 0.7rem 0;
       opacity: 0.6;
     }
+  }
+  @media screen and (max-width: 769px) {
+    margin-top: 6rem;
+  }
+  @media screen and (max-width: 426px) {
+    padding: 0.5rem 0;
   }
 }

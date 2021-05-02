@@ -19,8 +19,18 @@ function Form() {
         <h3 className="tg">Sign up</h3>
       </div>
       <form>
-        <Input type="text" label="Username or Phone" Icon={EmailIcon} />
-        <Input type="password" label="Password" Icon={PassIcon} />
+        <Input
+          type="text"
+          label="Username or Phone"
+          Icon={EmailIcon}
+          placeholder="Username or Phone"
+        />
+        <Input
+          type="password"
+          label="Password"
+          Icon={PassIcon}
+          placeholder="6 + Characters, 1 Capital letter"
+        />
       </form>
       <div className="flex jc">
         <Toggle />

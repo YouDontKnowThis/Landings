@@ -1,0 +1,68 @@
+.about {
+  position: relative;
+  width: 85%;
+  margin: 6rem auto 0;
+  background: linear-gradient(180deg, #8c62e8 0%, #8c62e8 100%);
+  border-radius: 50px 50px 0px 0px;
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 3rem 5rem;
+    .card {
+      margin: auto;
+      width: 24%;
+      text-align: center;
+      .icon {
+        width: 62px;
+        height: 62px;
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0.4);
+        display: grid;
+        place-items: center;
+        margin-bottom: 0.7rem;
+        margin: auto;
+      }
+      h2 {
+        color: white;
+        font-size: 60px;
+      }
+      p {
+        font-size: 20px;
+        opacity: 0.6;
+      }
+    }
+  }
+  @media screen and (max-width: 1026px) {
+    width: 95%;
+    .list {
+      .card {
+        h2 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 769px) {
+    width: 95%;
+    .list {
+      .card {
+        width: 47%;
+        margin-top: 3rem;
+      }
+    }
+  }
+  @media screen and (max-width: 426px) {
+    width: 95%;
+    .list {
+      .card {
+        width: 99%;
+        margin-top: 3rem;
+      }
+    }
+  }
+}
