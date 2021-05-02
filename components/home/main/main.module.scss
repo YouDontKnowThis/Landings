@@ -7,7 +7,7 @@
   }
   .arrow {
     margin: 4rem 0;
-    animation: move 1.5s linear infinite;
+    animation: move 1.5s ease-in-out infinite;
   }
   @media screen and (max-width: 769px) {
     width: 100%;
@@ -20,6 +20,6 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(10px);
+    transform: translateY(15px);
   }
 }

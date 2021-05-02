@@ -2,8 +2,8 @@ function DronIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="55"
-      height="35"
+      width="53"
+      height="34"
       fill="none"
       viewBox="0 0 55 35"
     >

@@ -13,6 +13,18 @@ export default function HomePage() {
       <Header />
       <Home />
       <BackgroundHome />
+      <img
+        className="bg_gradient"
+        src="/bg.svg"
+        style={{
+          position: "absolute",
+          top: "500px",
+          left: "50px",
+          zIndex: "-2",
+          width: "60%",
+          objectFit: "contain",
+        }}
+      />
     </>
   );
 }
