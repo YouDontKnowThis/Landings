@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &:not(:first-of-type) {
+    margin-left: 3rem;
+  }
+  .icon {
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 31.5px;
+    background: #1e1f23;
+  }
+  h3 {
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+}
