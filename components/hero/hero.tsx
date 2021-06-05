@@ -1,5 +1,6 @@
 import Button from "../../ui/button/button";
 import classes from "./hero.module.scss";
+import Illustration from "./illustration/illustration";
 import Title from "./title/title";
 
 const Hero = () => {
@@ -11,7 +12,9 @@ const Hero = () => {
             <Title />
             <Button label="Discover" />
           </div>
-          <div className={classes.img}>{/* Illustration */}</div>
+          <div className={classes.img}>
+            <Illustration />
+          </div>
         </div>
       </div>
     </section>

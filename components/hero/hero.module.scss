@@ -1,17 +1,18 @@
 .hero {
+  margin-top: 3rem;
   .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     .main {
-      width: 60%;
+      width: 55%;
       h1 {
         font-size: 80px;
       }
     }
     .img {
-      width: 40%;
-      margin-top: -5rem;
+      width: 58%;
+      margin-top: -7rem;
       margin-right: -4rem;
     }
   }
