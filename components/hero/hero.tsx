@@ -1,3 +1,4 @@
+import Button from "../../ui/button/button";
 import classes from "./hero.module.scss";
 import Title from "./title/title";
 
@@ -8,6 +9,7 @@ const Hero = () => {
         <div className={classes.content}>
           <div className={classes.main}>
             <Title />
+            <Button label="Discover" />
           </div>
           <div className={classes.img}>{/* Illustration */}</div>
         </div>
