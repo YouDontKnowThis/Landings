@@ -1,0 +1,30 @@
+.lite,
+.colored,
+.bold,
+.line {
+  display: inline-block;
+  margin: 0 0.8rem 0 0;
+}
+
+.lite {
+  font-family: "konnect-light";
+  font-weight: 100;
+}
+.colored {
+  font-family: "konnect-medium";
+  background: var(--main-color-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bold {
+  font-family: "konnect-bold";
+}
+
+.line {
+  height: 4px;
+  width: 180px;
+  margin: 0 1rem;
+  background-color: var(--white);
+}

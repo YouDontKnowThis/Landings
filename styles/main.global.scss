@@ -1,0 +1,60 @@
+// Variables
+:root {
+  --bg-color: hsla(0, 0%, 10%, 1);
+  --main-color-gradient: linear-gradient(76.73deg, #ffe588 1.04%, #ffba34 100%);
+  --white: hsla(0, 0%, 95%, 1);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "konnect-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/KonnectLight.woff");
+}
+@font-face {
+  font-family: "konnect-regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/KonnectRegular.woff");
+}
+@font-face {
+  font-family: "konnect-medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/KonnectMedium.woff");
+}
+@font-face {
+  font-family: "konnect-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/KonnectBold.woff");
+}
+
+body {
+  font-family: "konnect-regular";
+  background-color: var(--bg-color);
+  color: var(--white);
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .container_md {
+    width: 99%;
+    max-width: 1296.98px;
+    margin: auto;
+  }
+  .container_lg {
+    width: 99%;
+    max-width: 1400px;
+    margin: auto;
+  }
+}

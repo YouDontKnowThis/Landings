@@ -1,0 +1,8 @@
+.link {
+  &:not(:first-of-type) {
+    margin-left: 3rem;
+  }
+  a {
+    font-size: 19px;
+  }
+}
