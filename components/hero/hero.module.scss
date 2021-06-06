@@ -18,8 +18,11 @@
   }
   .playIcon {
     position: absolute;
-    top: 65%;
+    top: 52%;
     left: 42%;
+    @media screen and (max-width: 1441px) {
+      top: 65%;
+    }
     @media screen and (max-width: 1025px) {
       display: none;
     }
