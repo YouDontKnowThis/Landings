@@ -8,6 +8,7 @@ function SphereIcon() {
   };
   return (
     <svg
+      className="only_desktop"
       style={style}
       xmlns="http://www.w3.org/2000/svg"
       width="110"

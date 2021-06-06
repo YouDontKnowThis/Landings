@@ -17,4 +17,14 @@
     text-transform: uppercase;
     font-weight: 100;
   }
+
+  @media screen and (max-width: 426px) {
+    align-items: flex-start;
+    &:not(:first-of-type) {
+      margin-left: 0;
+    }
+    .icon {
+      width: 100%;
+    }
+  }
 }

@@ -16,10 +16,47 @@
       margin-right: -4rem;
     }
   }
-  .s_card {
+  .playIcon {
     position: absolute;
     top: 65%;
     left: 42%;
-    transform: rotate(-25deg);
+    @media screen and (max-width: 1025px) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .content {
+      display: block;
+      .main {
+        width: 100%;
+      }
+      .img {
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .content {
+      display: block;
+      .main {
+        width: 100%;
+      }
+      .img {
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .content {
+      .main {
+        h1 {
+          font-size: 50px;
+        }
+      }
+      .img {
+        margin: 1.5rem 0;
+      }
+    }
   }
 }

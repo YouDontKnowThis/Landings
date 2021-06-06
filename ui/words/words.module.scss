@@ -27,4 +27,7 @@
   width: 180px;
   margin: 0 1rem;
   background-color: var(--white);
+  @media screen and (max-width: 426px) {
+    width: 60px;
+  }
 }

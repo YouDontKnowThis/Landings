@@ -5,4 +5,7 @@
   place-items: center;
   border-radius: 31.5px;
   background: #1e1f23;
+  @media screen and (max-width: 1025px) {
+    display: none;
+  }
 }

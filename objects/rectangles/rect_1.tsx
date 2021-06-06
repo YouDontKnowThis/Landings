@@ -11,6 +11,7 @@ function Rect_1() {
 
   return (
     <svg
+      className="hide_on_mobile"
       style={style}
       xmlns="http://www.w3.org/2000/svg"
       width="550"
