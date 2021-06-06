@@ -1,9 +1,17 @@
 .services {
+  position: relative;
+  margin-bottom: 3rem;
   h2 {
     font-size: 35px;
     margin-bottom: 3rem;
   }
   .content {
     display: flex;
+  }
+  .s_card {
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    transform: rotate(-25deg);
   }
 }

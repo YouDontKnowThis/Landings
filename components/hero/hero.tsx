@@ -1,4 +1,5 @@
 import Button from "../../ui/button/button";
+import SmallCard from "../../ui/small-card/small-card";
 import classes from "./hero.module.scss";
 import Illustration from "./illustration/illustration";
 import Title from "./title/title";
@@ -16,6 +17,12 @@ const Hero = () => {
             <Illustration />
           </div>
         </div>
+        <SmallCard
+          imgUrl="/images/services/play-video.png"
+          width={141.18}
+          height={102.94}
+          position={classes.s_card}
+        />
       </div>
     </section>
   );

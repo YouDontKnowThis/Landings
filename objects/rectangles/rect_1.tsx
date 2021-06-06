@@ -1,6 +1,17 @@
+import { CSSProperties } from "react";
+
 function Rect_1() {
+  const style: CSSProperties = {
+    position: "absolute",
+    bottom: "9%",
+    left: "9%",
+    transform: "rotate(9deg)",
+    zIndex: -1,
+  };
+
   return (
     <svg
+      style={style}
       xmlns="http://www.w3.org/2000/svg"
       width="550"
       height="569"
