@@ -1,15 +1,17 @@
 import { CSSProperties } from "react";
 
-function Rect_2() {
+function Rect_2({ rectRef }) {
   const style: CSSProperties = {
     position: "absolute",
     bottom: "11%",
-    left: "5%",
-    transform: "rotate(1deg)",
+    left: "20%",
+    opacity: 0,
+    transform: "rotate(25deg)",
     zIndex: -1,
   };
   return (
     <svg
+      ref={rectRef}
       className="hide_on_mobile"
       style={style}
       xmlns="http://www.w3.org/2000/svg"

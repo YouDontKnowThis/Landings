@@ -1,4 +1,5 @@
-import { CSSProperties } from "react";
+import { CSSProperties, useRef, useEffect } from "react";
+import gsap, { Power3 } from "gsap";
 
 function SphereIcon() {
   const style: CSSProperties = {
@@ -6,8 +7,23 @@ function SphereIcon() {
     top: "8%",
     left: "52%",
   };
+
+  const sphereRef = useRef();
+
+  useEffect(() => {
+    gsap.to(sphereRef.current, {
+      x: 420,
+      rotate: 360,
+      ease: Power3.easeInOut,
+      duration: 2.5,
+      repeat: -1,
+      yoyo: true,
+    });
+  }, []);
+
   return (
     <svg
+      ref={sphereRef}
       className="only_desktop"
       style={style}
       xmlns="http://www.w3.org/2000/svg"
