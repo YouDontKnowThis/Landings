@@ -11,6 +11,7 @@ const Illustration = () => {
   const rect1Ref = useRef();
   const rect2Ref = useRef();
   const rect3Ref = useRef();
+  const playIconRef = useRef();
 
   useEffect(() => {
     console.log(rect1Ref.current);
@@ -34,6 +35,12 @@ const Illustration = () => {
       duration: 0.5,
       delay: 1,
     });
+    gsap.to(playIconRef.current, {
+      duration: 2,
+      rotate: 360,
+      repeat: -1,
+      ease: "linear",
+    });
   }, []);
 
   return (
@@ -44,7 +51,7 @@ const Illustration = () => {
         height={680.25}
         layout="responsive"
       />
-      <PlayIcon />
+      <PlayIcon iconRef={playIconRef} />
       <Rect_1 rectRef={rect1Ref} />
       <Rect_2 rectRef={rect2Ref} />
       <Rect_3 rectRef={rect3Ref} />

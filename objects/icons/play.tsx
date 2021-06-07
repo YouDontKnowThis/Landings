@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 
-function PlayIcon() {
+function PlayIcon({ iconRef }) {
   const style: CSSProperties = {
     position: "absolute",
     bottom: "-5%",
@@ -8,6 +8,7 @@ function PlayIcon() {
   };
   return (
     <svg
+      ref={iconRef}
       style={style}
       xmlns="http://www.w3.org/2000/svg"
       width="127"
