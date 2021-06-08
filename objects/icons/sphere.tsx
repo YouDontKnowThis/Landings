@@ -5,14 +5,14 @@ function SphereIcon() {
   const style: CSSProperties = {
     position: "absolute",
     top: "8%",
-    left: "52%",
+    left: "54%",
   };
 
   const sphereRef = useRef();
 
   useEffect(() => {
     gsap.to(sphereRef.current, {
-      x: 420,
+      x: 250,
       rotate: 360,
       ease: Power3.easeInOut,
       duration: 2.5,

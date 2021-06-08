@@ -4,7 +4,7 @@ function PlayIcon({ iconRef }) {
   const style: CSSProperties = {
     position: "absolute",
     bottom: "-5%",
-    right: "15%",
+    right: "19%",
   };
   return (
     <svg
